@@ -21,7 +21,7 @@ public class Main {
         //Задание №3
         int y1 = 1896;
         int yOut = y1+200;
-        for (int y = 1896; y < yOut; y = y + 79) {
+        for (int y = 0; y < yOut; y = y + 79) {
             System.out.println(y);
         }
     }
