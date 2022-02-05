@@ -19,10 +19,13 @@ public class Main {
             System.out.println("Сегодня пятница, " + i2 + "-е число. Необходимо подготовить отчет.");
         }
         //Задание №3
-        int y1 = 1896;
-        int yOut = y1+200;
-        for (int y = 0; y < yOut; y = y + 79) {
-            System.out.println(y);
+        int yearNow = 2022;
+        int start = yearNow - 200;
+        int end = yearNow + 200;
+        for (int y = 0; y < end; y = y + 79) {
+            if (y >= start && y <= end) {
+                System.out.println(y);
+            }
         }
     }
 }
